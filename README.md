@@ -31,6 +31,6 @@ $4.$ **Customers:** Ultimately, the end-users whose experiences and interactions
 
 ## Data Understanding
 ---
-The dataset utilized in this project is sourced from SyriaTel published on [Kaggle link], encompassing comprehensive customer information. It includes data on customers' state of residence, telephone numbers, and account duration. Additionally, the dataset features columns specifying whether customers have an international plan and voicemail plan, along with details on the number of voicemails received. Furthermore, it encompasses data on the duration of calls, the frequency of calls made, and the corresponding charges incurred during the day, evening, and night periods.
+The dataset utilized in this project is sourced from SyriaTel published on [Kaggle](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset), encompassing comprehensive customer information. It includes data on customers' state of residence, telephone numbers, and account duration. Additionally, the dataset features columns specifying whether customers have an international plan and voicemail plan, along with details on the number of voicemails received. Furthermore, it encompasses data on the duration of calls, the frequency of calls made, and the corresponding charges incurred during the day, evening, and night periods.
 
 ## Exploratory Data Analysis
