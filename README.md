@@ -34,3 +34,24 @@ $4.$ **Customers:** Ultimately, the end-users whose experiences and interactions
 The dataset utilized in this project is sourced from SyriaTel published on [Kaggle](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset), encompassing comprehensive customer information. It includes data on customers' state of residence, telephone numbers, and account duration. Additionally, the dataset features columns specifying whether customers have an international plan and voicemail plan, along with details on the number of voicemails received. Furthermore, it encompasses data on the duration of calls, the frequency of calls made, and the corresponding charges incurred during the day, evening, and night periods.
 
 ## Exploratory Data Analysis
+![boxplot](images/boxplot.png)
+![histogram](images/Histograms.png)
+
+Based on the boxplots and histogram plots generated for the dataset above, it's observed that the majority of features exhibit approximately normal distributions with minimal presence of outliers. However, a notable exception is the `number of vmail messages` feature, which displays approximately negatively skewed distribution.
+
+**Distribution of customers by state**
+![state](images/customers_by_state.png)
+
+Plotting distribution of customers with internal plans and voice mail plans
+
+![categoricals](images/internationa_and_voicemail.png)
+
+Distibution of churn across customers
+
+![churn](images/Churn_Distribution.png)
+
+The dataset exhibits a significant class imbalance in the target variable, with approximately 85% of the records corresponding to customers who wouldn't churn (class 0).<br>
+ Consequently, a simplistic model that consistently predicts non-churn (class 0) for all instances would achieve an accuracy of approximately 85%. The accuracy, while seemingly high, may be misleading due to the imbalanced nature of the dataset.
+
+ ## Model Results
+
