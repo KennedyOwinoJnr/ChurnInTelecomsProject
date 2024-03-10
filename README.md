@@ -53,8 +53,13 @@ Distibution of churn across customers
 The dataset exhibits a significant class imbalance in the target variable, with approximately 85% of the records corresponding to customers who wouldn't churn (class 0).<br>
  Consequently, a simplistic model that consistently predicts non-churn (class 0) for all instances would achieve an accuracy of approximately 85%. The accuracy, while seemingly high, may be misleading due to the imbalanced nature of the dataset.
 
- ## Model Results
-### Final Model Evaluation Metrics
+ ## Data Preprocessing and Modelling
+ 
+To address the class imbalance, SMOTE was applied to the training set to ensure sufficient representation of the minority class in the model training process.
+
+GridSearchCV was utilized to determine the optimal combination of hyperparameters.
+
+The final results of the RandomForest model are presented below:
 
 - **Training Accuracy:** 0.983
 - **Validation Accuracy:** 0.967
