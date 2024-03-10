@@ -120,3 +120,7 @@ $iv.$ **Regular Model Monitoring and Updates:** Despite the high performance of 
 $v.$ **Feedback loop:** Establish a feedback loop where the model's predictions are used to inform business decisions, and the outcomes of those decisions are fed back into the model to continuously improve its performance over time.
 
 
+---
+The presentation slides are available on [PresentationSlides](https://www.canva.com/design/DAF_AD2-1wQ/-rmjNze7p5qm-48cTRRx-A/edit?utm_content=DAF_AD2-1wQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+
